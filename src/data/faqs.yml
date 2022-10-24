@@ -1,0 +1,19 @@
+#--------------------
+# FAQs First Col    
+#--------------------
+faqs_summary_first_col:
+  -
+    section: 'THE EXPERIENCE'
+    title: 'What can I expect from The Fans Strike Back - The Exhibition?'
+    details: 'The Fans Strike Back is the largest private Star Wars collection of fan items. You’ll find photos, posters, costumes, figures, and models of different types and sizes—all official objects bought by Star Wars fans. There will also be a merchandising shop full of goodies and a green chroma to take pictures in the Star Wars universe.'
+
+
+#--------------------
+# FAQs Second Col    
+#--------------------
+faqs_summary_second_col:
+  -
+    section: 'ACCESS'
+    title: 'Is the exhibition suitable for children?'
+    details: 'Yes, the exhibition is suitable for all ages.'
+

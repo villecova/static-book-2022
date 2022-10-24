@@ -1,0 +1,215 @@
+
+#-----------------------------------------------
+# Hero Section 
+#-----------------------------------------------
+hero_content:
+# Logo
+  logo: 
+    image: villecova-logo
+    alt: villecova book online
+# Subtitle
+  subtitle:
+    text: "web designer & developer"
+# Button
+  button: 
+    text: "SEE PROJECTS"
+    go-to: work
+
+#-----------------------------------------------
+# Info Section
+#-----------------------------------------------
+info_content:
+  -
+    number: 
+    title: "about"
+    subtitle: 
+    description: "<p>I’m a passionate web designer & developer based in Mexico. My graphic design background along with my curiosity, desire to learn and hard work helped me take a turn in my career and enter the web world. Let’s turn UI into code!</p>
+    <span>Figma UI Photoshop Illustrator HTML CSS SASS JavaScript handlebars</span>"
+    # Image
+    info_image:
+      enabled: true
+      alt: villecova Profile
+      image: profile.png
+    # Video
+    info_video:
+      id: #JED4RZYcVNs
+      widescreen: true
+    info_cta:
+      enabled: false
+  
+#-----------------------------------------------
+# Work section
+#-----------------------------------------------
+work_content:
+  number: 
+  title: work
+  subtitle: 
+  description:
+  
+  work_list:
+    - 
+      title: book vol.1
+      subtitle: Design + Develop
+      description: "Figma, HTML, CSS, Javascript, Bootstrap"
+      img: work/book-v1.jpg
+      alt: book vol.1 | villecova book online
+      site_url: https://villecova.github.io/book-2020/
+    - 
+      title: Jogos de Botequim
+      subtitle: Design + Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-18.jpg
+      alt: jogos de botequim | villecova book online
+      site_url: jogos-de-botequim-dev.netlify.app #https://jogosdebotequim.com.br/rio-de-janeiro/
+    - 
+      title: Privacidad
+      subtitle: Design + Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-1.jpg
+      alt: privacidad | villecova book online
+      site_url: https://privacidadmadrid.com/
+    - 
+      title: Dinos Alive
+      subtitle: Design
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-2.jpg
+      alt: dinos alive | villecova book online
+      site_url: https://dinosaliveexhibit.com/
+    - 
+      title: Becas Excelencia
+      subtitle: Design + Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-3.jpg
+      alt: becas bxcelencia | villecova book online
+      site_url: https://becasexcelencia.com/
+    - 
+      title: Art of the brick
+      subtitle: Design + Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-4.jpg
+      alt: art of the brick | villecova book online
+      site_url: https://artofthebrickexhibit.com/
+    - 
+      title: dream factory
+      subtitle: Design + Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-5.jpg
+      alt: dream factory | villecova book online
+      site_url: https://nofatecinemaimmersif.com/
+    - 
+      title: Stranger Things Store
+      subtitle: Design + Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-6.jpg
+      alt: stranger things store | villecova book online
+      site_url: https://strangerthings-store.com/
+    - 
+      title: firle beacon
+      subtitle: Design + Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-7.jpg
+      alt: firle beacon | villecova book online
+      site_url: https://firlebeaconevent.com/
+    - 
+      title: expo hyperrealisme
+      subtitle: Design + Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-8.jpg
+      alt: expo hyperrealisme | villecova book online
+      site_url: https://hyperrealismartexpo.com
+    - 
+      title: aqua mater
+      subtitle: Design + Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-9.jpg
+      alt: aqua mater | villecova book online
+      site_url: https://aquamatersebastiaosalgado.art/paris/
+    - 
+      title: Banksy
+      subtitle: Design + Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-10.jpg
+      alt: banksy | villecova book online
+      site_url: https://banksyartexhibit.com/
+    - 
+      title: Crepe City
+      subtitle: collab Design 
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-11.jpg
+      alt: crepe city | villecova book online
+      site_url: https://crepe-city.com
+    - 
+      title: fan fan fest
+      subtitle: Design + Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-12.jpg
+      alt: fan fan fest | villecova book online
+      site_url: https://fanfanfest.com
+    - 
+      title: Garden Adventure
+      subtitle: Design + Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-13.jpg
+      alt: garden adventure | villecova book online
+      site_url: https://peterrabbitgardenadventure.com/
+    - 
+      title: imagine picasso
+      subtitle: Design + collab Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-14.jpg
+      alt: imagine picasso | villecova book online
+      site_url: https://imaginepicassoexhibit.com/
+    - 
+      title: live at lydiard
+      subtitle: Design + Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-15.jpg
+      alt: live at lydiard | villecova book online
+      site_url: https://liveatlydiard.co.uk/
+    - 
+      title: dino kingdom
+      subtitle: Design + Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-16.jpg
+      alt: dino kingdom | villecova book online
+      site_url: https://dino-kingdom.netlify.app/leicester/
+    - 
+      title: secret santa
+      subtitle: collab Design + collab Develop
+      description: "Figma, HTML, CSS, sass, Javascript, Handlebars"
+      img: work/site-17.jpg
+      alt: secret santa | villecova book online
+      site_url: https://secret-santa-dev.netlify.app/
+      
+#-----------------------------------------------
+# 7.Footer section
+#-----------------------------------------------
+# RRSS Profiles
+rrss_profiles:
+# Write urls without https://
+  -
+    title: github
+    url: github.com/JuanFever
+  -
+    title: linkedin
+    url: linkedin.com/in/villecova
+
+#-----------------------------------------------
+# X. Slider Gallery
+#-----------------------------------------------
+
+video-gallery_title: 
+
+video-gallery_content:
+  -
+    image: 'mac'
+  -
+    image: 'polaroid'
+  -
+    image: 'disket'
+  -
+    image: 'tv'
+  -
+    image: 'cassettepng'
+     
+    

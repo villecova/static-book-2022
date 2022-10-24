@@ -1,0 +1,17 @@
+.hero-subtitle {
+    flex: 0 0 auto;
+    width: 60%;
+    font-size: rem-calc(35);
+    line-height: rem-calc(40);
+    display: flex;
+    margin: 0 auto;
+    color: get-color(secondary);
+    @include breakpoint(medium) {
+        display: block;
+        width: 100%;
+        font-size: rem-calc(57);
+    }
+    @include breakpoint(xxlarge) {
+        font-size: rem-calc(54);
+    }
+}

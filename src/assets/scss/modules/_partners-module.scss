@@ -1,0 +1,20 @@
+.sec-partners {
+    padding: 0;
+
+    .grid-x {
+        align-items: center;
+    }
+
+    &__item {
+        text-align: center;
+
+    }
+    &__img {
+        margin-bottom: rem-calc(16);
+        max-height: rem-calc(87);
+        @include breakpoint(medium) {
+            max-height: rem-calc(130);
+        } 
+    }
+
+}

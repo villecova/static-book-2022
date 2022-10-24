@@ -1,0 +1,25 @@
+.hero-title {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 0 auto;
+    margin: 0 auto;
+    justify-content: center;
+    width: 90%;
+    @include breakpoint(xxlarge) {
+        width: 70%;
+    }
+
+    &__logo {
+        flex: 0 0 auto; 
+        max-height: rem-calc(150);
+        pointer-events: none;
+        width: 90%;
+        margin-bottom: rem-calc(16);
+        @include breakpoint(medium) {
+            margin-bottom: rem-calc(24);
+            max-height: 100%;
+            width: 70%;
+            
+        }
+    }
+}

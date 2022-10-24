@@ -1,0 +1,73 @@
+.banner-section {
+  background: $secondary-color;
+  position: relative;
+  padding: rem-calc(15 0 8);
+  color: $white;
+  text-align: center;
+  font-size: rem-calc(16);
+  z-index: 4;
+  color: $white;
+
+  &__group {
+    margin-bottom: 0;
+    line-height: rem-calc(18);
+    text-transform: uppercase;
+    font-size: rem-calc(14);
+    a {
+      color: $white;
+      text-decoration: underline;
+    }
+    span {
+      font-size: rem-calc(20);
+      line-height: rem-calc(40);
+
+      b {
+        font-family: "Kanit", sans-serif;;
+      }
+    }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .banner-countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &__item {
+      margin: rem-calc(0 8);
+    }
+
+    &__word {
+      font-size: rem-calc(14);
+    }
+    &__number {
+      font-size: rem-calc(20);
+    }
+  }
+
+  
+}
+
+.hero-secondary-banner {
+  width: 100%;
+  padding: rem-calc(10 0 7);
+  text-align: center;
+
+
+  &__text {
+      margin-bottom: 0;
+      color: $white;
+      font-size: rem-calc(14.5);
+
+      strong {
+        color: $primary-color;
+      }
+  } 
+}

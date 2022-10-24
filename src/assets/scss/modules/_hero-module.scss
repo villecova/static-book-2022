@@ -1,0 +1,91 @@
+.hero-big {
+    text-align: center;
+    position: relative;
+
+    .grid-container {
+        @include breakpoint(medium) {
+            max-width: 100%;
+            padding: 0;
+        }
+    }
+
+    &__height {
+        @include xy-grid;
+        align-content: center;
+        padding: rem-calc(30 0);
+        min-height: 90vh;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        
+        @include breakpoint(medium) {
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                background: $black;
+                border-radius: rem-calc(40);
+                transform: translate(50%,-50%);
+                top: 50%;
+                left: -20%;
+                height: 65%;
+                width: 70%;
+                z-index: -1;
+            }
+        }
+        
+    }
+
+    &__video {
+        position: relative;
+        background: none;
+
+        .hero-big__height {
+            position: relative;
+            z-index: 3;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            background: linear-gradient(90deg, rgba(23, 23, 23, 0.87) 0%, rgba(23,23,23, 0.87) 100%);
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 2;
+            height: 100.1%;
+            width: 100%;
+        }
+
+        .video-background {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+            width: auto;
+            height: 100%;
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+
+            @include breakpoint(medium) {
+                top: 0;
+                right: 0;
+            }
+
+            &__desktop {
+                display: none;
+                @include breakpoint(medium) {
+                    display: block;
+                }
+            }
+            &__mobile {
+                @include breakpoint(medium) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

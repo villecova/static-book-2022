@@ -1,0 +1,25 @@
+.section-header {
+    &__title {
+        font-family: 'Advent Pro', sans-serif;
+        font-size: rem-calc(39);
+        font-weight: bold;
+        line-height: rem-calc(70);
+        color: get-color(secondary);
+        text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+        @include breakpoint(medium) {
+            font-size: rem-calc(48);
+        }
+    }
+    &__subtitle { 
+        font-family: 'Advent Pro', sans-serif;
+        font-size: rem-calc(39);
+        font-weight: bold;
+        line-height: rem-calc(70);
+        color: get-color(secondary);
+        text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+        @include breakpoint(medium) {
+            font-size: rem-calc(48);
+        }
+    }
+}
+

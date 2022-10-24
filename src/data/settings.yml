@@ -1,0 +1,112 @@
+
+#-----------------------------------------------
+# Basic config
+#-----------------------------------------------
+# Language Site |es-ES | fr-FR | en-EN | en-UK |en-US
+lang: 'en-US' #TODO Site Language
+version_class: # Add a custom class on body tag and on each module
+enabled_modules:
+  hero: true
+  info: true
+  work: true
+  partners: true
+  # city_selector: false
+  # rating: false
+  # press-reviews: false
+  # tickets: false
+  # saga: false
+  # location: false
+  # faqs: false
+  # tabs: false
+  # reviews: false
+  # instafeed: false
+  # banner: false
+  # gift: false
+  
+#-----------------------------------------------
+# Title Site, SEO and tracking things
+#-----------------------------------------------
+site_title: 'villecova' #TODO Title Site
+meta_description: 'book online 2022'  #TODO Site meta description
+url_site: 'https://villecova.com/' #TODO USE CLOSING '/' Site production URL Domain
+og_image_url: 'https://villecova.com/' #TODO USE CLOSING '/' Site production URL Domain (if multicity, don't add the city name)
+og_image: og-image.jpg
+
+#-----------------------------------------------
+# Navbar Menu
+#-----------------------------------------------
+header_logo: villecova-logo.svg #Add url logo of S3
+menu_nav:
+  -
+    title: 'about'
+    url: 'about'
+    anchor: true
+    target_blank: false
+  -
+    title: 'work'
+    url: 'work'
+    anchor: true
+    target_blank: false
+  -
+    title: 'contact'
+    url: 'mailto:villecova2@gmail.com'
+    anchor: false
+    target_blank: true
+
+#-----------------------------------------------
+# Info Section
+#-----------------------------------------------
+info_content:
+# Vertical content align / top (default) - middle - bottom
+  vertical_align:
+# Enable content in two columns for medium up res
+  two_columns: false
+# Number of columns for each res (x of 12) (Default: 12)
+  breakpoints:
+    small:
+    medium:
+    large: 7
+
+#-----------------------------------------------
+# work Section
+#-----------------------------------------------
+work_content:
+# Number of columns for each res (x of 12) (Default: 12)
+  block_grid:
+    small:
+    medium: 2
+    large: 3
+
+#-----------------------------------------------
+# Partners section - order position displayed for medium-up
+#-----------------------------------------------
+partners_list:
+  -
+    title: 
+    level:
+      -
+        type:
+        name: villecova book online
+        img: footer/footer-logo.png
+        class:
+        url:
+  -
+    title: 
+    level:
+      # -
+      #   type: 
+      #   name: EMS Entertainmant
+      #   img: ems.png
+      #   class: partners
+      #   url: 
+
+#-----------------------------------------------
+# Footer
+#-----------------------------------------------
+footer_nav:
+  -
+    title: Contact
+    url: mailto:villecova2@gmail.com
+    anchor: false
+    target_blank: true
+

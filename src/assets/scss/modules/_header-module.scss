@@ -1,0 +1,200 @@
+// $breakpointNavbar: xlarge; // Breakpoint to show the full menu (in px or foundations breackpoints)
+
+.header-page {
+    background: $black;
+    padding: rem-calc(8 0);
+
+    @include breakpoint(small down) {
+        position: relative;
+    }
+
+    @include breakpoint(medium) {
+        padding: rem-calc(8 0);
+    }
+
+    .menu-icon {
+        margin: 0;
+        color: get-color(primary);
+
+        &::after {
+            background-color: get-color(primary);
+            box-shadow: 0 7px 0 get-color(primary), 0 14px 0 get-color(primary);
+        }
+    }
+
+    &__logo {
+        width: rem-calc(32);
+        img {
+            color: get-color(primary);
+            height: rem-calc(17);
+        }
+    }
+
+    .top-bar {
+        background: $black;
+
+        @include breakpoint(small down) {
+            position: absolute;
+        }
+
+        top: rem-calc(5);
+        padding: 0;
+        ul {
+            background: $black;
+        }
+    }
+
+    &__menu {
+        background: $black;
+        justify-content: center;
+        a {
+            font-weight: 500;
+            
+            @include breakpoint(small down) {
+                padding: rem-calc(11);
+            } 
+        }
+    }
+
+    .rrss-links__item {
+       a {
+        padding: 0;
+       }
+
+       svg {
+        height: rem-calc(25);
+       }
+    }
+}
+
+// .header-page {
+//     padding: rem-calc(8 0);
+//     background: $black;
+
+//     &--home {
+//         display: none !important;
+//     }
+
+//     &.is-at-top {
+//         display: block;
+//     }
+// }
+
+// .header-logo {
+//     display: block;
+
+//     img {
+//         max-height: rem-calc(32);
+//     }
+// }
+
+// .navbar {
+//     display: flex;
+//     justify-content: flex-end;
+//     align-items: center;
+//     flex-wrap: wrap;
+
+//     &__menu {
+//         list-style: none;
+//         margin: 0;
+//         text-align: right;
+//         display: inline-block;
+
+//         .button {
+//             margin: 0;
+//         }
+//     }
+
+//     &__menu-item {
+//         display: none;
+//         padding: rem-calc(4 8);
+
+//         @include breakpoint($breakpointNavbar) {
+//             display: inline-block;
+//         }
+
+//         &.is-featured {
+//             display: inline-block;
+//         }
+
+//         a {
+//             display: flex;
+//             align-items: center;
+//             text-transform: uppercase;
+
+//             &.is-active {
+//                 text-decoration: underline;
+//             }
+//         }
+//     }
+
+//     &__menu-icon {
+//         color: $white;
+//         background: $black;
+//         @include breakpoint($breakpointNavbar) {
+//             display: none;
+//         }
+//     }
+// }
+
+// .menu-mobile {
+//     text-align: center;
+
+//     ul {
+//         list-style: none;
+//         margin: 0;
+
+//         li {
+//             display: block;
+//             margin: rem-calc(0 4);
+//         }
+
+//         .button {
+//             margin-bottom: 0;
+//         }
+//     }
+
+// }
+// .dropdown {
+//     list-style: none;
+//     margin: rem-calc(8 0);
+
+//     &.menu > li.is-dropdown-submenu-parent > a::after {
+//         transform: translate(rem-calc(4), 0);
+//     }
+//     ul {
+//         list-style: none;
+//         margin: 0; 
+//     }
+// } 
+
+// .dropdown-flag {
+//     width: rem-calc(24);
+//     padding: rem-calc(4 0 8 0);
+
+//     img {
+//         border: rem-calc(1) solid $white;
+//     } 
+//  }
+
+
+//  .dropdown.menu {
+//     margin-left: rem-calc(0);
+
+//     @include breakpoint (medium) {
+//         margin-left: rem-calc(0);
+//     }
+// }
+
+// .is-dropdown-submenu {
+//     position: absolute;
+//     top: 0;
+//     left: 100%;
+//     z-index: 1;
+//     display: none;
+//     min-width: 50px;
+//     border: 0;
+//     border-radius: rem-calc(2);
+//     padding: rem-calc(4 0 8 0);
+// } 
+
